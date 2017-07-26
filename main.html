@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Random Quote Machine</title>
+
+    <!-- CSS file -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <!-- Une row par défaut prend 12 row. Col-md-12 va prendre les 12 de large-->
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Random Quote Machine</h1>
+          <h3>WARNING: These quotes might inspire you</h3>
+          <hr> <!-- Pour ajouter une ligne -->
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="quote-box">
+            <p id="quote"></p>
+            <p id="author"></p>
+          </div>
+          <!-- on veut pas une liste avec des points mais une liste de gauche à droite -->
+          <ul class="list-inline">
+            <li><a href="#" class="btn btn-default btn-lg get-quote"><i class="fa fa-quote-left fa-fw"></i>Get Quote</a></li>
+            <li><a href="#" class="btn btn-default btn-lg share-quote"><i class="fa fa-twitter fa-fw"></i>Share</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
